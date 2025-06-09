@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    margin-top: 86px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+/*----------------------------------nav-----------------------------------*/
+nav{
+    width: 1440px;
+    height: 86px;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.nav{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 194px;
+    height: 45px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+nav ul li a:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li .active_link{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*----------------------------------main------------------------------------*/
+main{
+    background: #EFF0F3;
+    height: 814px;
+    display: flex;
+    gap: 116px;
+    padding: 164px 95px 284px 95px;
+}
+main .dasteen_front{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+main .line{
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+}
+main .text{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+form{
+    display: flex;
+    gap: 20px;
+}
+main .dasteen_front h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main .dasteen_front .text p{
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input[type="email"] {
+    width: 444px;
+    height: 67px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+}
+input[type="submit"] {
+    width: 145px;
+    height: 67px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+main img{
+    width: 470px;
+    height: 387px;
+}
+/*----------------------------------section-1--------------------------------*/
+.browse{
+    height: 500px;
+    padding: 67px 94px 68px 94px;
+    background: #EFF0F3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.browse_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.browse_header p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse_header a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.browse .cards{
+    display: flex;
+    gap: 37px;
+}
+.browse .card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background:  #FFFFFE;
+    position: relative;
+    transition: 1s;
+}
+.cards .card .card_header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+.cards .card .card_header .card_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    background: #FFFFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards .card .card_header p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.browse .card:hover{
+    background: #6246EA;
+    transition: 1s;
+}
+/*-----------------------section-2--------------------------*/
+.article{
+    height: 2504px;
+    padding: 80px 94px 80px 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.article .article_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.article .article_cards{
+    display: flex;
+    gap:  16px;
+}
+.article .article_card{
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.article .article_card:hover{
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.article_author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.article_author img{
+    width: 57px;
+    height: 57px;
+    border-radius: 57px;
+}
+.author_name{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+.article h3{
+    width: 260px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 25px auto auto auto;
+}
+.article .author_name p:nth-child(1){
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.article .author_name p:nth-child(2){
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.dot{
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 50%;
+    line-height: 1;
+    margin: 0 8px;
+}
+.button{
+    width: 165px;
+    height: 64px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*------------------------------section-3-------------------------*/
+.subscribe_section{
+    height: 453px;
+    padding: 58px 372px;
+    background: #EFF0F3;
+}
+.subscribe_section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe_section .mail_image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #FFFFFE;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.subscribe_section .mail_image img{
+    width: 81px;
+    height: 107px;
+}
+.subscribe_section .container h2{
+    color: #2B2C34;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.subscribe_section .container p{
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px auto 30px auto;
+}
+/*----------------------------------footer---------------------------*/
+footer{
+    background: #E4E5E9;
+    width: 1440px;
+    height: 435px;
+    padding: 70px 95px 0 96px;
+}
+.footer{
+    display: flex;
+    gap: 160px;
+}
+.footer_dasteen_blog{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_dasteen_blog p{
+    width: 284px;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.svg{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.icons{
+    width: 24px;
+    height: 24px;
+}
+.footer_social{
+    display: flex;
+    gap: 95px;
+}
+.footer_social_categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_social_categories h4{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.footer_social_categories p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_line{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin: 50px auto 26px auto;
+}
+footer:last-child{
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
